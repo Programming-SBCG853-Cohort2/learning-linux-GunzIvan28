@@ -1,10 +1,12 @@
 # Unix-command-summary
 A break down of unix-based commands
 
-1. man - Accessing On-Line Manual Pages
-In the terminal, the "man" command looks up the manual page for a command. The format of man is man <commandname> for example:		man ls		man pwd		man cat
+>1. man - Accessing On-Line Manual Pages
+In the terminal, the "man" command looks up the manual page for a command. The format of man is man <commandname> for example:		>man ls
+>man pwd
+>man cat
   
-2. pwd - Print the Working Directory
+>2. pwd - Print the Working Directory
 The "pwd" command prints the full pathname of your current working directory. The syntax for pwd is:
 pwd for example:
 (base) gunz@DESKTOP-19EC1CK:~$pwd
