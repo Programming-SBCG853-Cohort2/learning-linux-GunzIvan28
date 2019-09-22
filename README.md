@@ -1,7 +1,7 @@
 # Unix-command-summary
 A break down of unix-based commands
 
-#1. man - Accessing On-Line Manual Pages
+1. man - Accessing On-Line Manual Pages
 In the terminal, the "man" command looks up the manual page for a command. The format of man is man <commandname> for example:		man ls		man pwd		man cat
   
 2. pwd - Print the Working Directory
