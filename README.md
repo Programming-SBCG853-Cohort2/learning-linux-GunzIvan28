@@ -1,5 +1,5 @@
 # Unix-command-summary
-A break down of unix-based commands
+A basic break down of unix-based commands
 
 **1. man - Accessing On-Line Manual Pages**
 In the terminal, the "man" command looks up the manual page for a command. The format of man is man <commandname> for example:		man ls
@@ -63,6 +63,29 @@ ugo Specify u (user), g (group) or o (other).
 +-= Specify + (add), - (subtract) or = (set). 
 rwx Specify r (read), w (write) or x (execute).
 
-13. 
+**13. grep - Searching for Strings in Files**
+The grep command scans a ﬁle for the occurrence of a word or string and prints out any line in which it is found. The format of grep is grep [-i] ’string’ ﬁlename(1) ﬁlename(2)...
+
+**14. wc - Counting Words**
+The "wc" command counts the lines, words and characters in a ﬁle. The syntax of wc is 
+wc [-l] [-w] [-c] ﬁlename...
+  -l Prints the number of lines in the ﬁles. 
+  -w Prints the number of words in the ﬁles. 
+  -c Prints the number of characters in the ﬁles.
+
+**15. Wildcards**
+Most shells have a mechanism which indicates groups of letters. For example: 
+$ ls abc* - to list all the ﬁles in a directory which begin with the letters abc
+$ ls ???h - to list all the four–letter ﬁles which end in h
+$ cp [0-9]* <dir>: copies all files ranging from 0-9 irrespective of its format or extensions
+$ cp [[:upper:]]* <dir>: copies all files with upper case letters irrespective of its format or extensions
+$ cp [[:lower:]]* <dir>: copies all files with lower case letters irrespective of its format or extensions
+$ cp *[[:digit:]] <dir>: copies all files that end with digits
+$ cp [[:alpha:]]* <dir>: copies all files with letters irrespective of its format or extensions
+$ cp [[:alnum:]] <dir>: copies all files with letters & numerals
+
+
+
+
 
 
